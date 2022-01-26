@@ -37,41 +37,41 @@ document.getElementById("click5").addEventListener("click", function() {
 
 
 document.getElementById("click6").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/indexItems.html"
+  window.location = "http://127.0.0.1:5501/items.html"
 });
 document.getElementById("click7").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/index9.html"
+  window.location = "http://127.0.0.1:5500/index9.html"
 });
 document.getElementById("click8").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/index10.html";
+  window.location = "http://127.0.0.1:5500/index10.html";
 });
 document.getElementById("click9").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/index11.html";
+  window.location = "http://127.0.0.1:5500/index11.html";
 });
 document.getElementById("click10").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/index12.html";
+  window.location = "http://127.0.0.1:5500/index12.html";
 });
 document.getElementById("click11").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/index8.html";
+  window.location = "http://127.0.0.1:5500/index8.html";
 });
 
 
 document.getElementById("click12").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/indexRunes.html"
+  window.location = "http://127.0.0.1:5501/runes.html"
 });
 document.getElementById("click13").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/index14.html"
+  window.location = "http://127.0.0.1:5500/index14.html"
 });
 document.getElementById("click14").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/index15.html";
+  window.location = "http://127.0.0.1:5500/index15.html";
 });
 document.getElementById("click15").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/index16.html";
+  window.location = "http://127.0.0.1:5500/index16.html";
 });
 document.getElementById("click16").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/index17.html";
+  window.location = "http://127.0.0.1:5500/index17.html";
 });
 document.getElementById("click17").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/index18.html";
+  window.location = "http://127.0.0.1:5500/index18.html";
 });
 
