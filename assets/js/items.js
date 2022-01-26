@@ -37,7 +37,7 @@ document.getElementById("click5").addEventListener("click", function() {
 
 
 document.getElementById("click6").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Items/indexItems.html"
+  window.location = "http://127.0.0.1:5501/items.html"
 });
 document.getElementById("click7").addEventListener("click", function() {
   window.location = "http://127.0.0.1:5500/Items/index9.html"
@@ -57,7 +57,7 @@ document.getElementById("click11").addEventListener("click", function() {
 
 
 document.getElementById("click12").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Runes/indexRunes.html"
+  window.location = "http://127.0.0.1:5501/runes.html"
 });
 document.getElementById("click13").addEventListener("click", function() {
   window.location = "http://127.0.0.1:5500/Runes/index14.html"
