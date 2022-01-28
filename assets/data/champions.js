@@ -1,5 +1,4 @@
-document.querySelector(".myUL")
-const myUL = [
+const champions = [
   {
     id: 1,
     name: "Camille",
@@ -62,7 +61,7 @@ const myUL = [
   },
   {
     id: 11,
-    name: "Tryndam",
+    name: "Tryndamere",
     image: "https://kicdo.com/images/source/champion/Tryndamere.png",
     lane: ["top"],
   },
@@ -458,7 +457,7 @@ const myUL = [
   },
   {
     id: 77,
-    name: "TF",
+    name: "Twisted Fate",
     image: "https://kicdo.com/images/source/champion/TwistedFate.png",
     lane: ["mid"],
   },
@@ -566,7 +565,7 @@ const myUL = [
   },
   {
     id: 95,
-    name: "A.Sol",
+    name: "Aurelion Sol",
     image: "https://kicdo.com/images/source/champion/AurelionSol.png",
     lane: ["mid"],
   },
@@ -902,7 +901,7 @@ const myUL = [
   },
   {
     id: 151,
-    name: "MsFortune",
+    name: "Miss Fortune",
     image: "https://kicdo.com/images/source/champion/MissFortune.png",
     lane: ["adc"],
   },
@@ -920,7 +919,7 @@ const myUL = [
   },
   {
     id: 154,
-    name: "Heimer",
+    name: "Heimerdinger",
     image: "https://kicdo.com/images/source/champion/Heimerdinger.png",
     lane: ["adc"],
   },
