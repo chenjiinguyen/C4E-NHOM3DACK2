@@ -144,6 +144,22 @@ margin-left: 1200px;
 }
 
 
+
+#myInput {
+   display: inline-block;
+ position: relative;
+   font-size: 22px;
+  color: black;
+  bottom: 60px;
+height: 40px;
+padding: 10px;
+width: 18%;
+border: none;
+border-radius: 4px;
+margin-left: 1200px;
+}
+
+
 .background{
   padding-left: 200px;
   padding-right: 110px;
@@ -158,12 +174,8 @@ height: 120px;
 border-radius: 100%;
 border: 4px solid chocolate;
 }
-li > a:hover{
-  border-style: solid;
-  border-color: rgb(0, 255, 255);
-  position: relative;
-  bottom: 4px;
-  height: 1px;
+div:hover{
+  color: LightCoral;
 }
 
 
@@ -180,41 +192,39 @@ text-decoration-color: rgb(0, 255, 255);
 
 
 
-#myUL {
+#champions {
   list-style-type: none;
   padding: 0;
   margin: 0;
   }
   
   
-  #myUL li a {
+  #champions li p {
   margin-top: -1px; 
-  padding: 12px;
   text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
+  font-size: 20px;
+  color: white;
+  display: block;
+  
   }
   
   
-  .myUL{
+  .champions{
   display: flex;
   align-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
   position: relative;
-  margin-right: 500px;
   justify-content: left;
-  bottom: 120px;
+  bottom: 50px;
 
   
   }
-  .myUL > li{
+  .champions > li{
    margin: 10px;
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-size: 21px;
   color: white;
   text-align: center;
