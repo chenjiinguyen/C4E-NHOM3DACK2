@@ -1,11 +1,11 @@
 function myFunctionInput() {
-  var input, filter, ul, li, a, i, txtValue;
+  var input, filter, ul, li, div, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
+  ul = document.getElementById("champions");
   li = ul.getElementsByTagName("li");
   for (i = 0; i < li.length; i++) {
-      a = li[i].getElementsByTagName("a")[0];
+      a = li[i].getElementsByTagName("div")[0];
       txtValue = a.textContent || a.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {
           li[i].style.display = "";
@@ -15,63 +15,44 @@ function myFunctionInput() {
   }
 }
 
-document.getElementById("click0").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index.html"
-});
-document.getElementById("click1").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index2.html"
-});
-document.getElementById("click2").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index3.html";
-});
-document.getElementById("click3").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index4.html";
-});
-document.getElementById("click4").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index5.html";
-});
-document.getElementById("click5").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/Project/index6.html";
-});
 
+const urlSearchParams = new URLSearchParams(window.location.search);
+const params = Object.fromEntries(urlSearchParams.entries());
 
+const usersElement = document.querySelector('.champions');
+usersElement.innerHTML = "";
+let htmlData = "";
 
-document.getElementById("click6").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5501/items.html"
-});
-document.getElementById("click7").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index9.html"
-});
-document.getElementById("click8").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index10.html";
-});
-document.getElementById("click9").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index11.html";
-});
-document.getElementById("click10").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index12.html";
-});
-document.getElementById("click11").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index8.html";
-});
+if(params.lane){
+for (const item of champions) {
+    if (item.lane.includes(params.lane)) {
+        let html = `
+        
+<ul class="champions" id="champions">
+<li >
+    <img class="image" src="${item.image}" height="120" alt="">
+    <div class="name">${item.name}</div>
+</li>
+</ul>`;
+        htmlData += html;
+    
+}
+}
+}else{
+    for (const item of champions) {
+        let html = `
+        
+<ul class="champions" id="champions">
+<li >
+    <img class="image" src="${item.image}" height="120" alt="">
+    <div class="name">${item.name}</div>
+</li>
+</ul>`;
+        htmlData += html;
+    
+}
+}
 
+usersElement.innerHTML = htmlData;
 
-document.getElementById("click12").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5501/runes.html"
-});
-document.getElementById("click13").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index14.html"
-});
-document.getElementById("click14").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index15.html";
-});
-document.getElementById("click15").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index16.html";
-});
-document.getElementById("click16").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index17.html";
-});
-document.getElementById("click17").addEventListener("click", function() {
-  window.location = "http://127.0.0.1:5500/index18.html";
-});
 
