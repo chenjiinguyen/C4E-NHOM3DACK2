@@ -1,11 +1,11 @@
- const usersElement = document.querySelector('.champions');
-  usersElement.innerHTML = "";
-  let htmlData = "";
+const usersElement = document.querySelector('.champions');
+usersElement.innerHTML = "";
+let htmlData = "";
 
 
-  for (const item of champions) {
-    let html = `
-    
+for (const item of champions) {
+  let html = `
+  
 <ul class="champions" id="champions">
 <li >
 <img class="image" src="${item.image}" height="120" alt="">
@@ -13,7 +13,7 @@
 </li>
 </ul>`
 
-    htmlData += html;
+  htmlData += html;
 
 }
 
