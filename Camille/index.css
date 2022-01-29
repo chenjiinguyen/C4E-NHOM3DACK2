@@ -1,353 +1,362 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+.nav{
+  margin: 0px; 
+  padding: 0px;
+  background: #ea1e63;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 82px;
+
+}
+.logo{
+  display: inline-block;
+ position: relative;
+  left: 10px;
+  padding: 10px;
+  font-size: 22px; 
+  color: white;
+}
+.lollogo{
+height: 60px;
+padding-left: 20px;
+position: relative;
+top: 10px;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #ea1e63;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-size: 18px;
+padding: 15px;
+  width: 125%;
+  font-weight: bold;
+}
+
+.dropdown-content a {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+a > img {
+  position: relative;
+  height: 30px;
+  top: 7px;
+  right: 4px;
+}
+
+.dropdown-content a:hover {color: Indigo;}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+color: khaki;
+}
+
+
+.dropbtn2 {
+background-color: #ea1e63;
+color: white;
+padding: 16px;
+font-size: 21px;
+border: none;
+cursor: pointer;
+position: relative;
+bottom: 10px;
+font-weight: bold;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+.dropdown:hover .dropbtn2 {
+color: khaki;
+}
+
+
+.dropbtn3 {
+background-color: #ea1e63;
+color: white;
+padding: 16px;
+font-size: 21px;
+border: none;
+cursor: pointer;
+position: relative;
+bottom: 10px;
+font-weight: bold;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.dropbtn4 {
+background-color: #ea1e63;
+color: white;
+padding: 16px;
+font-size: 21px;
+border: none;
+cursor: pointer;
+position: relative;
+bottom: 10px;
+font-weight: bold;
+padding-left: 50px;
+padding-right: 50px;
+}
+.dropdown:hover .dropbtn3 {
+color: khaki;
+}
+
+
+.dropdown:hover .dropbtn4 {
+color: khaki;
+}
+
+#myInput {
+   display: inline-block;
+ position: relative;
+   font-size: 22px;
+  color: black;
+  bottom: 60px;
+height: 40px;
+padding: 10px;
+width: 18%;
+border: none;
+border-radius: 4px;
+margin-left: 1200px;
+}
+
+#myInput {
+   display: inline-block;
+ position: relative;
+   font-size: 22px;
+  color: black;
+  bottom: 60px;
+height: 40px;
+padding: 10px;
+width: 18%;
+border: none;
+border-radius: 4px;
+margin-left: 1200px;
+}
+
+
+.background{
+  padding-left: 200px;
+  padding-right: 180px;
+  background: rgb(0, 255, 255);
+  padding-top: 450px;
+  height: 3100px;
+  }
+
+
+li > img{
+height: 120px;
+border-radius: 100%;
+border: 4px solid chocolate;
+position: relative;
+bottom: 20px;
+}
+
+input:focus{
+  outline: none;
+}
+a{
+text-decoration-color: rgb(0, 255, 255);
+}
+.toplaneicon{
+  height: 50px;
+  position: relative;
+  bottom: 300px;
+  left: 200px;
+}
+
+
+#champions {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  }
+  
+  #champions li p {
+  margin-top: -1px; 
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  
+  }
+  
+  .champions{
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: left;
+  bottom: 50px;
+
+  
+  }
+  .champions > li{
+   margin: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  }
+  h1{
+    position: relative;
+    color: Orange;
+    bottom: 200px;
+    border-style: solid;
+    border-top:rgb(0, 255, 255);
+    border-left:rgb(0, 255, 255);
+    border-right:rgb(0, 255, 255);
+    text-align: center;
+    padding-bottom: 10px;
+    border-width: 2px;
+    padding-right: 20px;
+  }
+  .LOL{
+    height: 200px;
+    position: relative;
+    padding-left: 400px;
     
   }
-  .nav{
-    margin: 0px; 
-    padding: 0px;
-    background: #ea1e63;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
-    height: 82px;
-  
-  }
-  .logo{
-    display: inline-block;
-   position: relative;
-    left: 10px;
-    padding: 10px;
-    font-size: 22px; 
-    color: white;
-  }
-  .lollogo{
-  height: 60px;
-  padding-left: 20px;
+
+.xx{
   position: relative;
-  top: 10px;
-  }
-  
-  .dropdown {
-  position: relative;
-  display: inline-block;
-  }
-  
-  .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ea1e63;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 18px;
-  padding: 15px;
-    width: 125%;
-    font-weight: bold;
-  }
-  
-  .dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  }
-  a > img {
-    position: relative;
-    height: 30px;
-    top: 7px;
-    right: 4px;
-  }
-  
-  .dropdown-content a:hover {color: Indigo;}
-  
-  .dropdown:hover .dropdown-content {
-  display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-  color: khaki;
-  }
+  display: flex;
+  margin-bottom: 120px;
   
   
-  .dropbtn2 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-  
-  }
-  .dropdown:hover .dropbtn2 {
-  color: khaki;
-  }
-  
-  
-  .dropbtn3 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-  }
-  
-  .dropbtn4 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-  }
-  .dropdown:hover .dropbtn3 {
-  color: khaki;
-  }
-  
-  
-  .dropdown:hover .dropbtn4 {
-  color: khaki;
-  }
-  
-  
-  
-  #myInput {
-     display: inline-block;
-   position: relative;
-     font-size: 22px;
-    color: black;
-    bottom: 60px;
-  height: 40px;
-  padding: 10px;
-  width: 18%;
-  border: none;
-  border-radius: 4px;
-  margin-left: 1200px;
-  }
-  
-  
-  
-  #myInput {
-     display: inline-block;
-   position: relative;
-     font-size: 22px;
-    color: black;
-    bottom: 60px;
-  height: 40px;
-  padding: 10px;
-  width: 18%;
-  border: none;
-  border-radius: 4px;
-  margin-left: 1200px;
-  }
-  
-  
-  .background{
-    padding-left: 200px;
-    padding-right: 180px;
-    background: rgb(0, 255, 255);
-    padding-top: 450px;
-    height: 100%px;
-    }
-  
-  
-  li > img{
-  height: 120px;
-  border-radius: 100%;
+}
+.xx > img{
   border: 4px solid chocolate;
   position: relative;
-  bottom: 20px;
-  }
-  div:hover{
-    color: LightCoral;
-  }
-  
-  
-  
-  
-  input:focus{
-    outline: none;
-  }
-  a{
-  text-decoration-color: rgb(0, 255, 255);
-  }
-  
-  
-  
-  
-  
-  #champions {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    }
-    
-    
-    #champions li p {
-    margin-top: -1px; 
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    display: block;
-    
-    }
-    
-    
-    .champions{
-    display: flex;
-    align-content: space-between;
-    flex-wrap: wrap;
-    position: relative;
-    justify-content: left;
-    bottom: 50px;
-  
-    
-    }
-    .champions > li{
-     margin: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 21px;
-    color: white;
-    text-align: center;
-    }
-    h1{
-      position: relative;
-      color: Orange;
-      bottom: 200px;
-      border-style: solid;
-      border-top:rgb(0, 255, 255);
-      border-left:rgb(0, 255, 255);
-      border-right:rgb(0, 255, 255);
-      text-align: center;
-      padding-bottom: 10px;
-      border-width: 2px;
-      padding-right: 20px;
-    }
-    .LOL{
-      height: 200px;
-      position: relative;
-      bottom: 100px;
-      padding-left: 400px;
-      margin-top: 160px;
-    }
+  margin-left: 50px;
+  background: red;
 
-.items{
-    padding-right: 90px;
-    position: relative;
-    display: flex;
-    margin-top: 150px;
-    
 }
-.items > img{
-    border: 4px solid chocolate;
-    position: relative;
-    margin-left: 50px;
-    bottom: 200px;
-    background: red;
-  
-}
-  
+
 .dropdownA {
+position: relative;
+display: inline-block;
+}
+.dropdownA .xx .dropdown-content {
+display: none;
+position: absolute;
+background-color: orange;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+font-size: 17px;
+padding: 15px;
+  width: 500%;
+  bottom: 100px;
+  font-weight: normal;
+
+}
+.dropdownA .xx .dropdown-content a {
+color: white;
+text-decoration: none;
+display: block;
+}
+.dropdownA .xx .dropdown-content a:hover {
+    pointer-events: none;
+     opacity: 0.99;
+}
+
+.dropdownA:hover .dropdown-content {
+display: block;
+}
+.dropdownA > img{
+  border: 4px solid chocolate;
   position: relative;
-  display: inline-block;
-  }
-  .dropdownA .xx .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: orange;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 17px;
-  padding: 15px;
-    width: 600%;
-    bottom: 300px;
-    font-weight: normal;
+  margin-left: 50px;
+  bottom: 200px;
+  background: red;
 
-  }
-  .dropdownA .xx .dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  }
-  .dropdownA .xx .dropdown-content a:hover {
-      pointer-events: none;
-       opacity: 0.99;
-  }
-  
-  .dropdownA:hover .dropdown-content {
-  display: block;
-  }
-  .dropdownA > img{
-    border: 4px solid chocolate;
-    position: relative;
-    margin-left: 50px;
-    bottom: 200px;
-    background: red;
-  
-  }
+}
 
-h4{
-    color: white;
-    position: relative;
-    bottom: 80px;
-    background-color: blueviolet;
-    margin-right: 500px;
-    margin-left: 40px;
-    padding-left: 45px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 21px;
-    border-radius: 10px;
-  }
-  
 
 .continue{
+color: white;
+font-weight: bold;
+font-size: 35px;
+position: relative;
+width: 00px;
+right: 10px;
+top: 20px;
+}
+.images{
+height: 80px;
+}
+h4{
   color: white;
-  font-weight: bold;
-  font-size: 35px;
   position: relative;
-  bottom: 180px;
-  left: 5px;
+  bottom: 20px;
+  background-color: blueviolet;
+  margin-right: 500px;
+  margin-left: 40px;
+  padding-left: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+  border-radius: 10px;
 }
 h5{
   color: white;
   position: relative;
-  bottom: 155px;
+  top: 46px;
   right: 34px;
   font-size: 26px;
   height: 30px;
   width: 30px;
   background: rgba(38, 38, 38, .5) ;
   text-align: center;
+  
+  }
+h6{
+  color: white;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
+  font-size: 21px;
+  height: 30px;
+  text-align: center;
+}
+  
+.imageses{
+  height: 30px;
+  position: relative;
+  bottom: 40px;
+}
+.combo1{
+  position: relative;
+  height: 90px;
+  top: 55px;
+}
 
-}
-.images{
-  height: 80px;
-}
-    
-    
   
   
     
