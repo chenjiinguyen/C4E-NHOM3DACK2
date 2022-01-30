@@ -31,7 +31,7 @@ for (const item of champions) {
 <ul class="champions" id="champions">
 <li >
     <img class="image" src="${item.image}" height="120" alt="">
-    <div class="name">${item.name}</div>
+    <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
 </li>
 </ul>`;
         htmlData += html;
@@ -45,7 +45,7 @@ for (const item of champions) {
 <ul class="champions" id="champions">
 <li >
     <img class="image" src="${item.image}" height="120" alt="">
-    <div class="name">${item.name}</div>
+    <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
 </li>
 </ul>`;
         htmlData += html;
