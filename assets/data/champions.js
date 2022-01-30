@@ -4,6 +4,7 @@ const champions = [
     name: "Camille",
     image: "https://kicdo.com/images/source/champion/Camille.png",
     lane: ["top"],
+    link: "Camille/index.html",
   },
   {
     id: 2,
@@ -889,8 +890,8 @@ const champions = [
   },
   {
     id: 149,
-    name: "Samira",
-    image: "https://kicdo.com/images/source/champion/Samira.jpg",
+    name: "Zeri",
+    image: "https://kicdo.com/images/source/champion/Zeri.png",
     lane: ["adc"],
   },
   {
@@ -925,8 +926,10 @@ const champions = [
   },
   {
     id: 155,
-    name: "Zeri",
-    image: "https://kicdo.com/images/source/champion/Zeri.png",
+    name: "Samira",
+    image: "https://scontent.xx.fbcdn.net/v/t1.15752-9/s206x206/272124418_1103867783713186_7397156939319717633_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=aee45a&_nc_ohc=rc_SyQyOrvgAX9LKSjd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVLAi8rGIGLKzxSsRru39-SShulU2MCW2SMDhwtu8aeHTw&oe=621C596A",
     lane: ["adc"],
   },
 ];
+
+
