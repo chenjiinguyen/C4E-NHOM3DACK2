@@ -13,7 +13,6 @@
   width: 100%;
   z-index: 2;
   height: 82px;
-
 }
 .logo{
   display: inline-block;
@@ -61,7 +60,10 @@ a > img {
   right: 4px;
 }
 
-.dropdown-content a:hover {color: Indigo;}
+.dropdown-content a:hover {
+  color: Indigo;
+  transition-duration: 0.5s;
+}
 
 .dropdown:hover .dropdown-content {
 display: block;
@@ -90,7 +92,6 @@ padding-right: 50px;
 color: khaki;
 }
 
-
 .dropbtn3 {
 background-color: #ea1e63;
 color: white;
@@ -104,7 +105,6 @@ font-weight: bold;
 padding-left: 50px;
 padding-right: 50px;
 }
-
 .dropbtn4 {
 background-color: #ea1e63;
 color: white;
@@ -121,7 +121,6 @@ padding-right: 50px;
 .dropdown:hover .dropbtn3 {
 color: khaki;
 }
-
 
 .dropdown:hover .dropbtn4 {
 color: khaki;
@@ -141,43 +140,20 @@ border-radius: 4px;
 margin-left: 1200px;
 }
 
-#myInput {
-   display: inline-block;
- position: relative;
-   font-size: 22px;
-  color: black;
-  bottom: 60px;
-height: 40px;
-padding: 10px;
-width: 18%;
-border: none;
-border-radius: 4px;
-margin-left: 1200px;
-}
-
-
 .background{
   padding-left: 200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height: 3100px;
+  height: 2850px;
   }
-
-
-li > img{
-height: 120px;
-border-radius: 100%;
-border: 4px solid chocolate;
-position: relative;
-bottom: 20px;
-}
 
 input:focus{
   outline: none;
 }
 a{
-text-decoration-color: rgb(0, 255, 255);
+text-decoration: none;
+color: white;
 }
 .toplaneicon{
   height: 50px;
@@ -185,44 +161,65 @@ text-decoration-color: rgb(0, 255, 255);
   bottom: 300px;
   left: 200px;
 }
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
 
-
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
 #champions {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: none;
   }
-  
-  #champions li p {
-  margin-top: -1px; 
+  #champions li a { 
   text-decoration: none;
-  font-size: 20px;
+  font-size: 17px;
   color: white;
-  display: block;
-  
+  position: relative;
+  bottom: 15px;
   }
-  
   .champions{
-  display: flex;
+  display: block;
   align-content: space-between;
   flex-wrap: wrap;
   position: relative;
   justify-content: left;
-  bottom: 50px;
-
-  
+  bottom: 60px;
+  left: 1200px;
   }
   .champions > li{
-   margin: 10px;
-  padding-right: 25px;
-  padding-left: 25px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 23px;
-  font-weight: bold;
+   border: 2px solid khaki;
+   border-radius: 6px;
+   padding: 10px;
   color: white;
-  text-align: center;
+  background-color: #ea1e63;
+  height: 60px;
+  width: 275px;
   }
+ #champions li:hover { 
+  background-color: rgb(121, 163, 113);
+  transition-duration: 0.5s;
+  }
+li > img{
+  height: 40px;
+  border-radius: 100%;
+  border: 4px solid chocolate;
+  position: relative;
+  }
+
   h1{
     position: relative;
     color: Orange;
@@ -236,6 +233,26 @@ text-decoration-color: rgb(0, 255, 255);
     border-width: 2px;
     padding-right: 20px;
   }
+.championsava{
+  height: 120px;
+  border-radius: 100%;
+  border: 4px solid chocolate;
+  position: relative;
+  bottom: 150px;
+  left: 60px;
+}
+.typeicon{
+  height: 40px;
+  position: relative;
+  bottom: 200px;
+  left: 90px;
+}
+.laneicon{
+  height: 50px;
+  position: relative;
+  bottom: 190px;
+  left: 110px;
+}
   .LOL{
     height: 200px;
     position: relative;
@@ -247,7 +264,6 @@ text-decoration-color: rgb(0, 255, 255);
   position: relative;
   display: flex;
   margin-bottom: 120px;
-  
   
 }
 .xx > img{
@@ -262,7 +278,7 @@ position: relative;
 display: inline-block;
 height: 80px;
 margin-bottom: 80px;
-bottom: 100px;
+bottom: 50px;
 }
 .dropdownA .xx .dropdown-content {
 display: none;
@@ -274,7 +290,7 @@ z-index: 1;
 font-size: 17px;
 padding: 15px;
   width: 500%;
-  bottom: 100px;
+  bottom: 90px;
   font-weight: normal;
 
 }
@@ -299,8 +315,6 @@ display: block;
   background: red;
 
 }
-
-
 .continue{
 color: white;
 font-weight: bold;
@@ -313,10 +327,14 @@ top: 20px;
 .images{
 height: 80px;
 }
+.images:hover{
+  opacity: .6;
+  transition-duration: 0.5s;
+  }
 h4{
   color: white;
   position: relative;
-  bottom: 120px;
+  bottom: 70px;
   background-color: blueviolet;
   margin-right: 500px;
   margin-left: 40px;
@@ -359,6 +377,6 @@ h6{
   top: 25px;
 }
 
-  
+
   
     
