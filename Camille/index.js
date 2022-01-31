@@ -1,20 +1,21 @@
-const usersElement = document.querySelector('.champions');
-usersElement.innerHTML = "";
-let htmlData = "";
-
-
-for (const item of champions) {
-  let html = `
+function myFunctionInput() {
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("champions");
+  li = ul.getElementsByTagName("li");
   
-<ul class="champions" id="champions">
-<li >
-<img class="image" src="${item.image}" height="120" alt="">
-<div class="name">${item.name}</div>
-</li>
-</ul>`
+  const inputDisplay = input.value.length > 1 ? 'block' : 'none';
+  ul.style.display = inputDisplay;
+  
+  for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+      } else {
+          li[i].style.display = "none";
+      }
+  }
+  }
 
-  htmlData += html;
-
-}
-
-usersElement.innerHTML = htmlData;
