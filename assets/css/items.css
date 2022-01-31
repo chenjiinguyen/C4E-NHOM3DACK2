@@ -61,7 +61,10 @@
     right: 4px;
   }
   
-  .dropdown-content a:hover {color: Indigo;}
+  .dropdown-content a:hover {
+    color: Indigo;
+    transition-duration: 0.5s;
+  }
   
   .dropdown:hover .dropdown-content {
   display: block;
@@ -157,9 +160,10 @@
   height: 80px;
   border: 4px solid chocolate;
   }
-  
-  
-  
+  li > img:hover{
+    opacity: .6;
+    transition-duration: 0.5s;
+  }
   
   input:focus{
     outline: none;
@@ -197,7 +201,6 @@
   .dropdownA:hover .dropdown-content {
   display: block;
   }
-  
 
   .dropdownB {
     position: relative;
@@ -230,16 +233,11 @@
     display: block;
     }
     
-  
-  
-  
-  
   #items {
     list-style-type: none;
     padding: 0;
     margin: 0;
     }
-    
     
     #items li a {
     margin-top: -1px; 
@@ -250,8 +248,7 @@
     display: block;
     text-align: left;
     }
-    
-    
+      
     .items{
     display: flex;
     align-content: space-between;
