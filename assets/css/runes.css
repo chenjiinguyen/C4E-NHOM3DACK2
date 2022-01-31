@@ -61,7 +61,10 @@
     right: 4px;
   }
   
-  .dropdown-content a:hover {color: Indigo;}
+  .dropdown-content a:hover {
+    color: Indigo;
+    transition-duration: 0.5s;
+  }
   
   .dropdown:hover .dropdown-content {
   display: block;
@@ -156,6 +159,10 @@
   li > img{
   height: 80px;
   }
+  li > img:hover{
+    opacity: .6;
+    transition-duration: 0.5s;
+    }
   
   
   
@@ -197,16 +204,11 @@
   display: block;
   }
   
-  
-  
-  
-  
   #runes {
     list-style-type: none;
     padding: 0;
     margin: 0;
     }
-    
     
     #runes li p {
     margin-top: -1px; 
