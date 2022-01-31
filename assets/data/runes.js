@@ -130,7 +130,7 @@ const runes = [
     image: "https://www.mobafire.com/images/reforged-rune/cut-down.png",
     type: ["chuanxac"],
     description:
-      "          Đốn h                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
+      "          Đốn hạ                <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
     id: 14,
