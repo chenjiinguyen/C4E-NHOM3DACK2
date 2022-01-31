@@ -44,7 +44,7 @@ const champions = [
   },
   {
     id: 8,
-    name: "Morde",
+    name: "Mordekaiser",
     image: "https://kicdo.com/images/source/champion/Mordekaiser.png",
     lane: ["top"],
   },
@@ -134,7 +134,7 @@ const champions = [
   },
   {
     id: 23,
-    name: "Mundo",
+    name: "Dr.Mundo",
     image: "https://kicdo.com/images/source/champion/DrMundonew.png",
     lane: ["top"],
   },
@@ -188,7 +188,7 @@ const champions = [
   },
   {
     id: 32,
-    name: "ChoGath",
+    name: "Cho`Gath",
     image: "https://kicdo.com/images/source/champion/ChoGath.png",
     lane: ["top"],
   },
@@ -218,13 +218,13 @@ const champions = [
   },
   {
     id: 37,
-    name: "LeeSin",
+    name: "Lee Sin",
     image: "https://kicdo.com/images/source/champion/LeeSin.png",
     lane: ["jungle"],
   },
   {
     id: 38,
-    name: "KhaZix",
+    name: "Kha`Zix",
     image: "https://kicdo.com/images/source/champion/KhaZix.png",
     lane: ["jungle"],
   },
@@ -266,7 +266,7 @@ const champions = [
   },
   {
     id: 45,
-    name: "JarvanIV",
+    name: "Jarvan IV",
     image: "https://kicdo.com/images/source/champion/JarvanIV.png",
     lane: ["jungle"],
   },
@@ -314,7 +314,7 @@ const champions = [
   },
   {
     id: 53,
-    name: "RekSai",
+    name: "Rek`Sai",
     image: "https://kicdo.com/images/source/champion/RekSai.png",
     lane: ["jungle"],
   },
@@ -350,7 +350,7 @@ const champions = [
   },
   {
     id: 59,
-    name: "XinZhao",
+    name: "Xin Zhao",
     image: "https://kicdo.com/images/source/champion/XinZhao.png",
     lane: ["jungle"],
   },
@@ -410,7 +410,7 @@ const champions = [
   },
   {
     id: 69,
-    name: "MasterYi",
+    name: "Master Yi",
     image: "https://kicdo.com/images/source/champion/MasterYi.png",
     lane: ["jungle"],
   },
@@ -710,7 +710,7 @@ const champions = [
   },
   {
     id: 119,
-    name: "VelKoz",
+    name: "Vel`Koz",
     image: "https://kicdo.com/images/source/champion/VelKoz.png",
     lane: ["support"],
   },
@@ -830,7 +830,7 @@ const champions = [
   },
   {
     id: 139,
-    name: "KaiSa",
+    name: "Kai`Sa",
     image: "https://kicdo.com/images/source/champion/KaiSa.png",
     lane: ["adc"],
   },
@@ -842,7 +842,7 @@ const champions = [
   },
   {
     id: 141,
-    name: "KogMaw",
+    name: "Kog`Maw",
     image: "https://kicdo.com/images/source/champion/KogMaw.png",
     lane: ["adc"],
   },
@@ -931,5 +931,3 @@ const champions = [
     lane: ["adc"],
   },
 ];
-
-
