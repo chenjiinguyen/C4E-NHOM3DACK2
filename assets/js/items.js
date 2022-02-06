@@ -32,10 +32,9 @@ if(params.type){
                 <li class="dropdownA">
                     <img class="image" src="${item.image}" height="80" alt="">
                     <p class="name">${item.name}</p>
-                    <div class ="xx">
-                    <div class="dropdown-content">
+                    <div class="dropdown-contentB">
                         <a class="description">${item.description}</a>
-                    </div></div>
+                    </div>
                 </li>
                 </ul>`;
                 htmlData += html;
@@ -51,10 +50,9 @@ if(params.type){
                 <li class="dropdownA">
                     <img class="image" src="${item.image}" height="80" alt="">
                     <p class="name">${item.name}</p>
-                    <div class ="xx">
-                    <div class="dropdown-content">
+                    <div class="dropdown-contentB">
                         <a class="description">${item.description}</a>
-                    </div></div>
+                    </div>
                 </li>
                 </ul>`;
                 htmlData += html;
