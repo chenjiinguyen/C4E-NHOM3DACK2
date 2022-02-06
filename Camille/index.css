@@ -73,7 +73,6 @@ display: block;
 color: khaki;
 }
 
-
 .dropbtn2 {
 background-color: #ea1e63;
 color: white;
@@ -145,7 +144,7 @@ margin-left: 1200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height: 2850px;
+  height:3250px;
   }
 
 input:focus{
@@ -253,13 +252,12 @@ li > img{
   bottom: 190px;
   left: 110px;
 }
-  .LOL{
+ .LOL{
     height: 200px;
     position: relative;
     padding-left: 400px;
-    
+    top: 200px;
   }
-
 .xx{
   position: relative;
   display: flex;
@@ -285,14 +283,12 @@ display: none;
 position: absolute;
 background-color: orange;
 min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 z-index: 1;
 font-size: 17px;
 padding: 15px;
   width: 500%;
   bottom: 90px;
   font-weight: normal;
-
 }
 .dropdownA .xx .dropdown-content a {
 color: white;
@@ -303,7 +299,6 @@ display: block;
     pointer-events: none;
      opacity: 0.99;
 }
-
 .dropdownA:hover .dropdown-content {
 display: block;
 }
@@ -313,7 +308,46 @@ display: block;
   margin-left: 50px;
   bottom: 200px;
   background: red;
-
+}
+.dropdown1 {
+  position: relative;
+  left: 50px;
+  height: 80px;
+  bottom: 50px;
+  margin-bottom: 20px;
+  display: inline;
+  margin-right: 20px;
+}
+.dropdown1 > img {
+  border: 4px solid rgb(53, 102, 207);
+  }
+.dropdown-contentB {
+  display: none;
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+}
+.smallimg:hover{
+  opacity: .6;
+  transition-duration: 0.5s;
+}
+.dropdown1:hover .dropdown-contentB {
+  display: block;
+  }
+.smallimg{
+  height: 80px;
+  width: 110px;
+}
+.largeimg{
+  height: 470px;
+}
+.desc {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  bottom: 450px;
+  left: 30px;
 }
 .continue{
 color: white;
@@ -365,7 +399,6 @@ h6{
   height: 30px;
   text-align: center;
 }
-  
 .imageses{
   height: 30px;
   position: relative;
@@ -376,6 +409,7 @@ h6{
   height: 60px;
   top: 25px;
 }
+
 
 
   
