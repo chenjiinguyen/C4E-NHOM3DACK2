@@ -130,8 +130,6 @@
   color: khaki;
   }
   
-  
-  
   #myInput {
      display: inline-block;
    position: relative;
@@ -172,41 +170,10 @@
   text-decoration:none;
   }
   .dropdownA {
-  position: relative;
-  display: inline-block;
-  }
-  .dropdownA .xx .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: orange;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-size: 17px;
-  padding: 15px;
-    width: 600%;
-    bottom: 110px;
-    font-weight: normal;
-  }
-  .dropdownA .xx .dropdown-content a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  }
-  .dropdownA .xx .dropdown-content a:hover {
-      pointer-events: none;
-       opacity: 0.99;
-  }
-  
-  .dropdownA:hover .dropdown-content {
-  display: block;
-  }
-
-  .dropdownB {
     position: relative;
     display: inline-block;
     }
-    .dropdownB .xx .dropdown-content {
+   .dropdown-contentB {
     display: none;
     position: absolute;
     background-color: orange;
@@ -215,24 +182,14 @@
     z-index: 1;
     font-size: 17px;
     padding: 15px;
-      width: 600%;
-      bottom: 110px;
-      font-weight: normal;
+    width: 600%;
+    bottom: 110px;
+    font-weight: normal;
     }
-    .dropdownB .xx .dropdown-content a {
-    color: white;
-    text-decoration: none;
+  .dropdownA:hover .dropdown-contentB{
     display: block;
-    }
-    .dropdownB .xx .dropdown-content a:hover {
-        pointer-events: none;
-         opacity: 0.99;
-    }
-    
-    .dropdownB:hover .dropdown-content {
-    display: block;
-    }
-    
+  }
+ 
   #items {
     list-style-type: none;
     padding: 0;
@@ -257,8 +214,6 @@
     justify-content: left;
     bottom: 40px;
     left: 10px;
-  
-    
     }
     .items > li{
      margin: 10px;
