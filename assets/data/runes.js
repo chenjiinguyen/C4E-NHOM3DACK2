@@ -1,30 +1,5 @@
 const runes = [
   {
-    id: 1,
-    name: "",
-    image: "https://www.mobafire.com/images/new-guide/new-runes/precision.png",
-    type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
-  },
-  {
     id: 2,
     name: "Sẵn Sàng Tấn Công",
     image: "https://www.mobafire.com/images/reforged-rune/press-the-attack.png",
@@ -81,10 +56,12 @@ const runes = [
       "                    Hiện diện trí tuệ                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
+    description:
+      "",
   },
   {
     id: 9,
@@ -111,10 +88,12 @@ const runes = [
       "           Huyền thoại: hút máu                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["chuanxac"],
-    description:"Điểm ngọc chuẩn xác",
+    description:
+      "",
   },
   {
     id: 12,
@@ -139,38 +118,6 @@ const runes = [
     type: ["chuanxac"],
     description:
       "                    Chốt chặn cuối cùng                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["them"],
-    description:"Điểm ngọc chuẩn xác",
-  },
-  {
-    id: 15,
-    name: "",
-    image: "https://www.mobafire.com/images/new-guide/new-runes/domination.png",
-    type: ["apdao"],
-    description:
-      "Điểm ngọc áp đảo",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["apdao"],
-    description:"Điểm ngọc áp đảo",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["apdao"],
-    description:"Điểm ngọc áp đảo",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["apdao"],
-    description:"Điểm ngọc áp đảo",
   },
   {
     id: 16,
@@ -204,7 +151,6 @@ const runes = [
     description:
       "           Mưa Kiếm                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
-  
   {
     id: 20,
     name: "Phát bắn đơn giản",
@@ -230,10 +176,12 @@ const runes = [
       "                    Tác động bất chợt                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["apdao"],
-    description:"Điểm ngọc áp đảo",
+    description:
+      "",
   },
   {
     id: 23,
@@ -261,10 +209,12 @@ const runes = [
       "           Thu thập nhãn cầu                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["apdao"],
-    description:"Điểm ngọc áp đảo",
+    description:
+      "",
   },
   {
     id: 26,
@@ -300,32 +250,6 @@ const runes = [
       "                    Thợ săn tối thượng                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    id: 30,
-    name: "",
-    image: "https://www.mobafire.com/images/new-guide/new-runes/sorcery.png",
-    type: ["phapthuat"],
-    description:
-      "Điểm ngọc pháp thuật",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
-  },
-  {
     id: 31,
     name: "Triệu Hồi Aery",
     image: "https://www.mobafire.com/images/reforged-rune/summon-aery.png",
@@ -350,10 +274,12 @@ const runes = [
       "           Tăng Tốc Pha                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
+    description:
+      "",
   },
   {
     id: 34,
@@ -380,10 +306,12 @@ const runes = [
       "                    Mũ tối thượng                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
+    description:
+      "",
   },
   {
     id: 37,
@@ -410,10 +338,12 @@ const runes = [
       "           Tập trung tuyệt đối                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
+    description:
+      "",
   },
   {
     id: 40,
@@ -438,38 +368,6 @@ const runes = [
     type: ["phapthuat"],
     description:
       "                    Cuồng phong tích tụ                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["phapthuat"],
-    description:"Điểm ngọc pháp thuật",
-  },
-  {
-    id: 43,
-    name: "",
-    image: "https://www.mobafire.com/images/new-guide/new-runes/resolve.png",
-    type: ["kiendinh"],
-    description:
-      "Điểm ngọc kiên định",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
   },
   {
     id: 44,
@@ -497,10 +395,12 @@ const runes = [
       "           Hộ Vệ                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
+    description:
+      "",
   },
   {
     id: 47,
@@ -527,10 +427,12 @@ const runes = [
       "                    Áo choàng gương                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
+    description:
+      "",
   },
   {
     id: 50,
@@ -557,10 +459,12 @@ const runes = [
       "           Giáp cốt                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
+    description:
+      "",
   },
   {
     id: 53,
@@ -585,39 +489,6 @@ const runes = [
     type: ["kiendinh"],
     description:
       "                    Kiên cường                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["kiendinh"],
-    description:"Điểm ngọc kiên định",
-  },
-  {
-    id: 56,
-    name: "",
-    image:
-      "https://www.mobafire.com/images/new-guide/new-runes/inspiration.png",
-      type: ["camhung"],
-    description:
-      "Điểm ngọc cảm hứng",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
-  },
-  {
-    name: "",
-    image: "",
-    type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
   },
   {
     id: 57,
@@ -645,10 +516,12 @@ const runes = [
       "           Đòn phủ đầu                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
+    description:
+      "",
   },
   {
     id: 60,
@@ -676,10 +549,12 @@ const runes = [
       "                    Thời điểm hoàn hảo                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
+    description:
+      "",
   },
   {
     id: 63,
@@ -707,10 +582,12 @@ const runes = [
       "           Giao hàng bánh quy                  <br><br>                  Nó cũng sẽ làm lộ diện bẫy Vô Hình, làm lộ diện kẻ địch Ngụy Trang, và lộ diện (đồng thời vô hiệu hóa) Mắt Xanh của đối thủ.                  <br><br>              Có thể mang theo tối đa 2 Mắt Kiểm Soát. Mắt Kiểm Soát không vô hiệu hóa Mắt Kiểm Soát khác.",
   },
   {
-    name: "",
-    image: "",
+    id: 8,
+    name: "Hiện diện trí tuệ",
+    image: "102&ccb=1-5&_nc_sid=aee45a&_nc_ohc=-AtSPVUpE5AAX9sakrT&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKi_arFmY3Z19XrL_wnEnboEcca17HLf_Ue6aKadwQA9Q&oe=62268DD7",
     type: ["camhung"],
-    description:"Điểm ngọc cảm hứng",
+    description:
+      "",
   },
   {
     id: 66,
