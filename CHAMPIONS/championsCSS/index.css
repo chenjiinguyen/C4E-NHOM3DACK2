@@ -142,7 +142,7 @@ margin-left: 1200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height:3250px;
+  height:2750px;
   }
 
 input:focus{
@@ -203,7 +203,7 @@ color: white;
    padding: 10px;
   color: white;
   background-color: #ea1e63;
-  height: 60px;
+  height: 80px;
   width: 275px;
   }
 li > img{
@@ -400,7 +400,7 @@ h6{
   height: 200px;
   position: relative;
   padding-left: 400px;
-  top: 200px;
+  top: 160px;
 }
 
 

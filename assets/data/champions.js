@@ -4,7 +4,7 @@ const champions = [
     name: "Camille",
     image: "https://kicdo.com/images/source/champion/Camille.png",
     lane: ["top"],
-    link: "Camille/index.html",
+    link: "CHAMPIONS/Camille.html",
   },
   {
     id: 2,
@@ -17,30 +17,35 @@ const champions = [
     name: "Jayce",
     image: "https://kicdo.com/images/source/champion/Jayce.png",
     lane: ["top"],
+    link: "CHAMPIONS/Jayce.html",
   },
   {
     id: 4,
     name: "Riven",
     image: "https://kicdo.com/images/source/champion/Riven.png",
     lane: ["top"],
+    link: "CHAMPIONS/Riven.html",
   },
   {
     id: 5,
     name: "Fiora",
     image: "https://kicdo.com/images/source/champion/Fiora.png",
     lane: ["top"],
+    link: "CHAMPIONS/Fiora.html",
   },
   {
     id: 6,
     name: "Kennen",
     image: "https://kicdo.com/images/source/champion/Kennen.png",
     lane: ["top"],
+    link: "CHAMPIONS/Kennen.html",
   },
   {
     id: 7,
     name: "Gwen",
     image: "https://kicdo.com/images/source/champion/Gwen.png",
     lane: ["top"],
+    link: "CHAMPIONS/Gwen.html",
   },
   {
     id: 8,
@@ -581,6 +586,7 @@ const champions = [
     name: "Yasuo",
     image: "https://kicdo.com/images/source/champion/Yasuo.png",
     lane: ["mid"],
+    link: "CHAMPIONS/Yasuo.html",
   },
   {
     id: 98,
