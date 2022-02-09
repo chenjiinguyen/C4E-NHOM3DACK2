@@ -22,26 +22,22 @@ usersElement.innerHTML = "";
 let htmlData = "";
 if(params.lane){
     for(const item of champions){
-        if(item.lane.includes.params.lane){
+        if(item.lane.includes(params.lane)){
             let html = `
-            <ul class="champions" id="champions">
-<li >
-    <img class="image" src="${item.image}" height="120" alt="">
-    <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
-</li>
-</ul>`;
-            htmlData +=html;
+    <li >
+        <img class="image" src="${item.image}" height="120" alt="">
+        <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
+    </li>`;
+    htmlData +=html;
         }
     }
 }else{
     for(const item of champions){
         let html = `
-    <ul class="champions" id="champions">
     <li >
         <img class="image" src="${item.image}" height="120" alt="">
         <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
-    </li>
-    </ul>`;
+    </li>`;
     htmlData +=html;
 }
 }
