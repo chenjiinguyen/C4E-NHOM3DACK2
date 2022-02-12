@@ -333,30 +333,31 @@ span{
   bottom: 50px;
   margin-bottom: 20px;
   display: inline;
-  margin-right: 20px;
+  margin-right: 15px;
 }
-.dropdown1 > img {
-  border: 4px solid rgb(53, 102, 207);
-  }
 .dropdown-contentB {
   display: none;
   position: absolute;
   top: 30px;
   z-index: 1;
 }
-.smallimg:hover{
-  opacity: .6;
-  transition-duration: 0.5s;
-}
 .dropdown1:hover .dropdown-contentB {
   display: block;
   }
 .smallimg{
-  height: 90px;
+  height: 94px;
   width: 120px;
+  opacity: 0.7;
+  padding: 4px;
+}
+.smallimg:hover{
+  opacity: 1.0;
+  transition-duration: 0.5s;
+  background-color: royalblue;
 }
 .largeimg{
   height: 470px;
+  padding-left: 4px;
 }
 .desc {
   color: white;
