@@ -31,7 +31,7 @@ if(params.type){
                     <img class="image" src="${item.image}" height="80" alt="">
                     <p class="name">${item.name}</p>
                     <div class="dropdown-contentB">
-                        <a class="description">${item.description}</a>
+                    <a class="description">${item.description}</a>
                     </div>
                 </li>`;
                 htmlData += html;          

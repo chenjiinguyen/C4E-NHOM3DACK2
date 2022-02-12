@@ -61,15 +61,13 @@ a > img {
 }
 .dropdown-content a:hover {
   color: Indigo;
-  transition-duration: 0.5s;
+  background-color: aquamarine;
+  border-radius: 8px;
+  opacity: .9;
 }
 
 .dropdown:hover .dropdown-content {
 display: block;
-}
-
-.dropdown:hover .dropbtn {
-color: khaki;
 }
 
 .dropbtn2 {
@@ -84,11 +82,13 @@ bottom: 10px;
 font-weight: bold;
 padding-left: 50px;
 padding-right: 50px;
+}
 
-}
 .dropdown:hover .dropbtn2 {
-color: khaki;
-}
+  color: khaki;
+  background-color: rgba(177, 33, 134, 0.5);
+  border-radius: 6px;
+  }
 
 .dropbtn3 {
 background-color: #ea1e63;
@@ -103,6 +103,13 @@ font-weight: bold;
 padding-left: 50px;
 padding-right: 50px;
 }
+
+.dropdown:hover .dropbtn3 {
+color: khaki;
+background-color: rgba(177, 33, 134, 0.5);
+border-radius: 6px;
+}
+
 .dropbtn4 {
 background-color: #ea1e63;
 color: white;
@@ -116,12 +123,11 @@ font-weight: bold;
 padding-left: 50px;
 padding-right: 50px;
 }
-.dropdown:hover .dropbtn3 {
-color: khaki;
-}
 
 .dropdown:hover .dropbtn4 {
 color: khaki;
+background-color: rgba(177, 33, 134, 0.5);
+border-radius: 6px;
 }
 
 #myInput {
@@ -203,9 +209,12 @@ color: white;
    padding: 10px;
   color: white;
   background-color: #ea1e63;
-  height: 80px;
+  height: 60px;
   width: 275px;
   }
+.champions > li:hover{
+background-color: rgb(87, 184, 119);
+}
 li > img{
   height: 40px;
   border-radius: 100%;
@@ -402,9 +411,3 @@ h6{
   padding-left: 400px;
   top: 160px;
 }
-
-
-
-
-  
-    
