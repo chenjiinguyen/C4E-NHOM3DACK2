@@ -48,20 +48,17 @@ padding: 15px;
 }
 
 .dropdown-content a {
-  color: white;
-  padding-bottom: 17px;
-  padding-left: 12px;
-  padding-top: 6px;
-  text-decoration: none;
-  display: block;
-  }
-  a > img {
+color: white;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+a > img {
   position: relative;
   height: 30px;
   top: 7px;
   right: 4px;
-  }
-  
+}
 .dropdown-content a:hover {
   color: Indigo;
   background-color: aquamarine;
@@ -151,7 +148,7 @@ margin-left: 1200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height:2750px;
+  height:2950px;
   }
 
 input:focus{
@@ -333,33 +330,46 @@ span{
   position: relative;
   left: 50px;
   height: 80px;
-  bottom: 50px;
+  bottom: 33.5px;
   margin-bottom: 20px;
   display: inline;
-  margin-right: 20px;
+  margin-right: 15px;
 }
-.dropdown1 > img {
-  border: 4px solid rgb(53, 102, 207);
-  }
 .dropdown-contentB {
   display: none;
   position: absolute;
-  top: 30px;
+  bottom: 80px;
   z-index: 1;
-}
-.smallimg:hover{
-  opacity: .6;
-  transition-duration: 0.5s;
 }
 .dropdown1:hover .dropdown-contentB {
   display: block;
   }
 .smallimg{
-  height: 90px;
+  position: relative;
+  top: 4px;
+  height: 94px;
   width: 120px;
+  opacity: 0.7;
+  padding: 4px;
+}
+.smallimg:hover{
+  opacity: 1.0;
+  transition-duration: 0.5s;
+  background-color: royalblue;
 }
 .largeimg{
   height: 470px;
+  padding-left: 4px;
+}
+.example{
+  height: 470px;
+  position: relative;
+  left: 54px;
+  bottom: 46px;
+}
+.exampleimg{
+  height: 470px;
+  opacity: .5;
 }
 .desc {
   color: white;
@@ -408,9 +418,4 @@ h6{
 .combo1{
   margin-top: 40px;
 }
-.LOL{
-  height: 200px;
-  position: relative;
-  padding-left: 400px;
-  top: 160px;
-}
+
