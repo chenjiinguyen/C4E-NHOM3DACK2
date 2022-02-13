@@ -148,7 +148,7 @@ margin-left: 1200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height:2750px;
+  height:2950px;
   }
 
 input:focus{
@@ -330,7 +330,7 @@ span{
   position: relative;
   left: 50px;
   height: 80px;
-  bottom: 50px;
+  bottom: 33.5px;
   margin-bottom: 20px;
   display: inline;
   margin-right: 15px;
@@ -338,13 +338,15 @@ span{
 .dropdown-contentB {
   display: none;
   position: absolute;
-  top: 30px;
+  bottom: 80px;
   z-index: 1;
 }
 .dropdown1:hover .dropdown-contentB {
   display: block;
   }
 .smallimg{
+  position: relative;
+  top: 4px;
   height: 94px;
   width: 120px;
   opacity: 0.7;
@@ -358,6 +360,16 @@ span{
 .largeimg{
   height: 470px;
   padding-left: 4px;
+}
+.example{
+  height: 470px;
+  position: relative;
+  left: 54px;
+  bottom: 46px;
+}
+.exampleimg{
+  height: 470px;
+  opacity: .5;
 }
 .desc {
   color: white;
@@ -406,9 +418,4 @@ h6{
 .combo1{
   margin-top: 40px;
 }
-.LOL{
-  height: 200px;
-  position: relative;
-  padding-left: 400px;
-  top: 160px;
-}
+
