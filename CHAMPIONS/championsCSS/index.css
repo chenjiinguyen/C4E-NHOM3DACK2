@@ -67,6 +67,9 @@ a > img {
   border-radius: 8px;
   opacity: .9;
 }
+.dropdown-content > .description{
+  pointer-events: none;
+}
 
 .dropdown:hover .dropdown-content {
 display: block;
