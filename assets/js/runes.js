@@ -49,17 +49,6 @@ if(params.type){
     
   }
 }else{
-  // for(const item of runes){
-  //     let html = `
-  //     <div class="dropdownA">
-  //     <img class="largeimg" src="${item.image}" alt=""/>
-  //     <div class ="xx">
-  //  <div class="dropdown-contentA">
-  // <a class="description">${item.description}</a>
-  // </div></div>
-  //     </div>`;
-  //     htmlData += html;
-  // }
 }
 
 usersElement.innerHTML = htmlData;
