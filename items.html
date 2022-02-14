@@ -3,6 +3,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/items.css">
+  <link rel="stylesheet" href="assets/css/search.css">
   </head>
 <body>
 
@@ -67,8 +68,8 @@
                 </div>
                 
                 
-                <input type="text" id="myInput" onkeyup="myFunctionInput()" placeholder="Tìm tên trang bị" title="Type in a name">
-              </ul>
+              <input class="inputtest" type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Tìm tên tướng" title="Type in a name"/>
+              <ul class="champions_search"> </ul>
             </nav>
            </div>
       
@@ -87,6 +88,8 @@
 
        </div>
         </body>
+        <script src="/assets/data/champions.js"></script>
         <script src="assets/data/dataitems.js"></script>
-          <script src="assets/js/items.js"></script>
+        <script src="assets/js/items.js"></script>
+        <script src="assets/js/search.js"></script>
         </html>
