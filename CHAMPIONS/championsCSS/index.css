@@ -300,7 +300,8 @@ background-color: blue;
 .dropdownA .xx .dropdown-content {
 display: none;
 position: absolute;
-background-color: orange;
+background-color: MediumSeaGreen;
+border-radius: 5px;
 min-width: 160px;
 z-index: 1;
 font-size: 17px;

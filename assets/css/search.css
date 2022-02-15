@@ -20,7 +20,7 @@
   width: 275px;
 }
 .champions_search > li:hover {
-  background-color: rgb(87, 184, 119);
+  background-color: LightSkyBlue;
 }
 
 .champions_search > li > img {
@@ -31,12 +31,15 @@
 }
 .champions_search li a {
   text-decoration: none;
-  font-size: 17px;
   color: white;
   position: relative;
-  bottom: 15px;
+  right: 18px;
+  bottom: 57px;
+  font-size: 20px;
+  width: 30px;
+  height: 60px;
+  margin-bottom: 30px;
 }
-
 #searchInput {
     display: inline-block;
   position: relative;
@@ -50,3 +53,13 @@
  border-radius: 4px;
  margin-left: 1200px;
  }
+.searchname{
+  font-size: 21px;
+  height: 56.5px;
+  width: 275px;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.searchname:hover{
+  color: rgba(255, 68, 0, 0.85);
+}
