@@ -1,12 +1,11 @@
-*{
+* {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  
 }
-.nav{
-  margin: 0px; 
+.nav {
+  margin: 0px;
   padding: 0px;
   background: #ea1e63;
   position: fixed;
@@ -14,46 +13,46 @@
   z-index: 2;
   height: 82px;
 }
-.logo{
+.logo {
   display: inline-block;
- position: relative;
+  position: relative;
   left: 10px;
   padding: 10px;
-  font-size: 22px; 
+  font-size: 22px;
   color: white;
 }
-.lollogo{
-height: 60px;
-padding-left: 20px;
-position: relative;
-top: 10px;
+.lollogo {
+  height: 60px;
+  padding-left: 20px;
+  position: relative;
+  top: 10px;
 }
 
 .dropdown {
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-display: none;
-position: absolute;
-background-color: #ea1e63;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-font-size: 18px;
-padding: 15px;
+  display: none;
+  position: absolute;
+  background-color: #ea1e63;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 18px;
+  padding: 15px;
   width: 125%;
   font-weight: bold;
 }
 
 .dropdown-content a {
-color: white;
-padding-bottom: 17px;
-padding-left: 12px;
-padding-top: 6px;
-text-decoration: none;
-display: block;
+  color: white;
+  padding-bottom: 17px;
+  padding-left: 12px;
+  padding-top: 6px;
+  text-decoration: none;
+  display: block;
 }
 a > img {
   position: relative;
@@ -65,105 +64,105 @@ a > img {
   color: Indigo;
   background-color: aquamarine;
   border-radius: 8px;
-  opacity: .9;
+  opacity: 0.9;
 }
-.dropdown-content > .description{
+.dropdown-content > .description {
   pointer-events: none;
 }
 
 .dropdown:hover .dropdown-content {
-display: block;
+  display: block;
 }
 
 .dropbtn2 {
-background-color: #ea1e63;
-color: white;
-padding: 16px;
-font-size: 21px;
-border: none;
-cursor: pointer;
-position: relative;
-bottom: 10px;
-font-weight: bold;
-padding-left: 50px;
-padding-right: 50px;
+  background-color: #ea1e63;
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .dropdown:hover .dropbtn2 {
   color: khaki;
   background-color: rgba(177, 33, 134, 0.5);
   border-radius: 6px;
-  }
+}
 
 .dropbtn3 {
-background-color: #ea1e63;
-color: white;
-padding: 16px;
-font-size: 21px;
-border: none;
-cursor: pointer;
-position: relative;
-bottom: 10px;
-font-weight: bold;
-padding-left: 50px;
-padding-right: 50px;
+  background-color: #ea1e63;
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .dropdown:hover .dropbtn3 {
-color: khaki;
-background-color: rgba(177, 33, 134, 0.5);
-border-radius: 6px;
+  color: khaki;
+  background-color: rgba(177, 33, 134, 0.5);
+  border-radius: 6px;
 }
 
 .dropbtn4 {
-background-color: #ea1e63;
-color: white;
-padding: 16px;
-font-size: 21px;
-border: none;
-cursor: pointer;
-position: relative;
-bottom: 10px;
-font-weight: bold;
-padding-left: 50px;
-padding-right: 50px;
+  background-color: #ea1e63;
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .dropdown:hover .dropbtn4 {
-color: khaki;
-background-color: rgba(177, 33, 134, 0.5);
-border-radius: 6px;
+  color: khaki;
+  background-color: rgba(177, 33, 134, 0.5);
+  border-radius: 6px;
 }
 
 #myInput {
-   display: inline-block;
- position: relative;
-   font-size: 22px;
+  display: inline-block;
+  position: relative;
+  font-size: 22px;
   color: black;
   bottom: 60px;
-height: 40px;
-padding: 10px;
-width: 18%;
-border: none;
-border-radius: 4px;
-margin-left: 1200px;
+  height: 40px;
+  padding: 10px;
+  width: 18%;
+  border: none;
+  border-radius: 4px;
+  margin-left: 1200px;
 }
-.background{
+.background {
   padding-left: 200px;
   padding-right: 180px;
   background: rgb(0, 255, 255);
   padding-top: 450px;
-  height:2950px;
-  }
+  height: 2950px;
+}
 
-input:focus{
+input:focus {
   outline: none;
 }
-a{
-text-decoration: none;
-color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-.toplaneicon{
+.toplaneicon {
   height: 50px;
   position: relative;
   bottom: 300px;
@@ -178,7 +177,7 @@ color: white;
 
 #myUL li a {
   border: 1px solid #ddd;
-  margin-top: -1px; 
+  margin-top: -1px;
   background-color: #f6f6f6;
   padding: 12px;
   text-decoration: none;
@@ -191,15 +190,15 @@ color: white;
   padding: 0;
   margin: 0;
   display: none;
-  }
-  #champions li a { 
+}
+#champions li a {
   text-decoration: none;
   font-size: 17px;
   color: white;
   position: relative;
   bottom: 15px;
-  }
-  .champions{
+}
+.champions {
   display: block;
   align-content: space-between;
   flex-wrap: wrap;
@@ -207,39 +206,39 @@ color: white;
   justify-content: left;
   bottom: 60px;
   left: 1200px;
-  }
-  .champions > li{
-   border: 2px solid khaki;
-   border-radius: 6px;
-   padding: 10px;
+}
+.champions > li {
+  border: 2px solid khaki;
+  border-radius: 6px;
+  padding: 10px;
   color: white;
   background-color: #ea1e63;
   height: 60px;
   width: 275px;
-  }
-.champions > li:hover{
-background-color: rgb(87, 184, 119);
 }
-li > img{
+.champions > li:hover {
+  background-color: rgb(87, 184, 119);
+}
+li > img {
   height: 40px;
   border-radius: 100%;
   border: 4px solid chocolate;
   position: relative;
-  }
-  h1{
-    position: relative;
-    color: Orange;
-    bottom: 200px;
-    border-style: solid;
-    border-top:rgb(0, 255, 255);
-    border-left:rgb(0, 255, 255);
-    border-right:rgb(0, 255, 255);
-    text-align: center;
-    padding-bottom: 10px;
-    border-width: 2px;
-    padding-right: 20px;
-  }
-.championsava{
+}
+h1 {
+  position: relative;
+  color: Orange;
+  bottom: 200px;
+  border-style: solid;
+  border-top: rgb(0, 255, 255);
+  border-left: rgb(0, 255, 255);
+  border-right: rgb(0, 255, 255);
+  text-align: center;
+  padding-bottom: 10px;
+  border-width: 2px;
+  padding-right: 20px;
+}
+.championsava {
   height: 120px;
   border-radius: 100%;
   border: 4px solid chocolate;
@@ -247,78 +246,78 @@ li > img{
   bottom: 150px;
   left: 60px;
 }
-.typeicon{
+.typeicon {
   height: 40px;
   position: relative;
   bottom: 200px;
   left: 90px;
 }
-.laneicon{
+.laneicon {
   height: 50px;
 }
-.laneclick{
+.laneclick {
   position: relative;
   left: 110px;
   bottom: 200px;
 }
-.xx{
+.xx {
   position: relative;
   display: flex;
   margin-bottom: 120px;
 }
-.xx > .images{
+.xx > .images {
   border: 4px solid chocolate;
   position: relative;
   background: red;
   height: 80px;
 }
-.xx > .imageses{
+.xx > .imageses {
   height: 30px;
   border: 4px solid chocolate;
   background: red;
   position: relative;
   bottom: 30px;
 }
-.images:hover{
-  opacity: .6;
+.images:hover {
+  opacity: 0.6;
   transition-duration: 0.5s;
 }
-.imageses:hover{
-  opacity: .6;
+.imageses:hover {
+  opacity: 0.6;
   transition-duration: 0.5s;
 }
 .dropdownA {
-position: relative;
-display: inline-block;
-height: 0px;
-margin-bottom: 160px;
-bottom: 50px;
-left: 20px;
-margin-left: 40px;
-background-color: blue;
+  position: relative;
+  display: inline-block;
+  height: 0px;
+  margin-bottom: 160px;
+  bottom: 50px;
+  left: 20px;
+  margin-left: 40px;
+  background-color: blue;
 }
 .dropdownA .xx .dropdown-content {
-display: none;
-position: absolute;
-background-color: MediumSeaGreen;
-border-radius: 5px;
-min-width: 160px;
-z-index: 1;
-font-size: 17px;
-padding: 15px;
-width: 600%;
-bottom: 90px;
-font-weight: normal;
+  display: none;
+  position: absolute;
+  background-color: MediumSeaGreen;
+  border-radius: 5px;
+  min-width: 160px;
+  z-index: 1;
+  font-size: 17px;
+  padding: 15px;
+  width: 600%;
+  bottom: 90px;
+  font-weight: normal;
 }
 .dropdownA .xx .dropdown-content a {
-color: white;
-text-decoration: none;
-display: block;
+  color: white;
+  text-decoration: none;
+  display: block;
 }
 .dropdownA:hover .dropdown-content {
-display: block;
+  display: block;
 }
-span{
+span {
   padding-top: 7px;
   padding-bottom: 7px;
   padding-right: 20px;
@@ -326,7 +325,7 @@ span{
   font-size: 23px;
   font-weight: bold;
   color: white;
-  background:rgb(43, 255, 0);
+  background: rgb(43, 255, 0);
   position: relative;
   left: 40px;
   bottom: 85px;
@@ -349,8 +348,8 @@ span{
 }
 .dropdown1:hover .dropdown-contentB {
   display: block;
-  }
-.smallimg{
+}
+.smallimg {
   position: relative;
   top: 4px;
   height: 94px;
@@ -358,24 +357,24 @@ span{
   opacity: 0.7;
   padding: 4px;
 }
-.smallimg:hover{
-  opacity: 1.0;
+.smallimg:hover {
+  opacity: 1;
   transition-duration: 0.5s;
   background-color: royalblue;
 }
-.largeimg{
+.largeimg {
   height: 470px;
   padding-left: 4px;
 }
-.example{
+.example {
   height: 470px;
   position: relative;
   left: 54px;
   bottom: 46px;
 }
-.exampleimg{
+.exampleimg {
   height: 470px;
-  opacity: .5;
+  opacity: 0.5;
 }
 .desc {
   color: white;
@@ -385,7 +384,7 @@ span{
   bottom: 450px;
   left: 30px;
 }
-h4{
+h4 {
   color: white;
   position: relative;
   bottom: 70px;
@@ -398,17 +397,17 @@ h4{
   font-size: 21px;
   border-radius: 10px;
 }
-h5{
+h5 {
   color: white;
   position: relative;
   top: 46px;
   right: 30px;
   font-size: 26px;
   width: 0px;
-  display: inline-flex ;
+  display: inline-flex;
   z-index: 1;
 }
-h6{
+h6 {
   color: white;
   position: relative;
   bottom: 60px;
@@ -421,7 +420,6 @@ h6{
   padding-top: 7px;
   border-radius: 6px;
 }
-.combo1{
+.combo1 {
   margin-top: 40px;
 }
-
