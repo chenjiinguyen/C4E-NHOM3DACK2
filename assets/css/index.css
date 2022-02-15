@@ -214,12 +214,15 @@ color: white;
     border-width: 2px;
     padding-right: 20px;
   }
-  .LOL{
-    height: 200px;
+  .footer{
     position: relative;
-    bottom: 100px;
-    padding-left: 450px;
-    margin-top: 160px;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    margin-left: 425px;
+  }
+  .FB{
+    height: 50px;
+    margin-right: 15px;
   }
 
 
