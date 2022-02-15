@@ -53,6 +53,9 @@
   border-radius: 4px;
   margin-left: 75%;
 }
+input:focus{
+  outline: none;
+}
 .searchname {
   font-size: 21px;
   height: 56.5px;
