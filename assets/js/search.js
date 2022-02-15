@@ -27,7 +27,7 @@ for (const item of champions) {
   let html = `
         <li style="display: none;">
             <img src="${item.image}" alt="">
-            <a style="color: white; font-size: 19px" href="${item.link}">${item.name}</a>
+            <a class="searchlink" style="color: white; font-size: 19px" href="${item.link}"><div class="searchname">${item.name}</div></a>
         </li>`;
   championsSearchHtmlData += html;
 }
