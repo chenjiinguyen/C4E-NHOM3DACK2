@@ -8,7 +8,7 @@
   position: relative;
   justify-content: left;
   bottom: 60px;
-  left: 1200px;
+  left: 77%;
 }
 .champions_search > li {
   border: 2px solid khaki;
@@ -17,7 +17,7 @@
   color: white;
   background-color: #ea1e63;
   height: 60px;
-  width: 275px;
+  width: 18%;
 }
 .champions_search > li:hover {
   background-color: LightSkyBlue;
@@ -51,7 +51,7 @@
   width: 18%;
   border: none;
   border-radius: 4px;
-  margin-left: 75%;
+  margin-left: 77%;
 }
 input:focus{
   outline: none;
