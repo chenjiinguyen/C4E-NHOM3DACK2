@@ -78,4 +78,3 @@ function myFunction() {
     document.getElementById("myDropdown6").classList.add("dropdown-image");
     document.getElementById("myDropdown7").classList.add("dropdown-image");
   }
-  
