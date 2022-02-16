@@ -22,13 +22,14 @@ function searchFunction() {
 const championsSearch = document.querySelector(".champions_search");
 championsSearch.innerHTML = "";
 let championsSearchHtmlData = "";
-
 for (const item of champions) {
   let html = `
-        <li style="display: none;">
-            <img src="${item.image}" alt="">
-            <a class="searchlink" style="color: white; font-size: 19px" href="${item.link}"><div class="searchname">${item.name}</div></a>
-        </li>`;
+    <li style="display: none;">
+      <img src="${item.image}" alt="">
+      <a class="searchlink" style="color: white; font-size: 19px" href="${item.link}"><div class="searchname">${item.name}</div></a>
+    </li>`;
   championsSearchHtmlData += html;
 }
-championsSearch.innerHTML  = championsSearchHtmlData;
+championsSearch.innerHTML = championsSearchHtmlData;
+
+
