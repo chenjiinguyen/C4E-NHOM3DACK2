@@ -25,7 +25,7 @@ left: 59px;
   height: 470px;
   opacity: .6;
 }
-.desc1 {
+.desc {
   color: white;
   font-weight: bold;
   font-size: 22px;
@@ -70,6 +70,10 @@ left: 59px;
 #myDropdown7 {
   position: relative;
   right: 837px;
+}
+#myDropdown8 {
+  position: relative;
+  right: 976.5px;
 }
 .dropdown-image {
   display: none;
