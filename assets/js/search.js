@@ -33,3 +33,6 @@ for (const item of champions) {
 championsSearch.innerHTML = championsSearchHtmlData;
 
 
+
+
+

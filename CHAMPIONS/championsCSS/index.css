@@ -317,6 +317,20 @@ h1 {
 .dropdownA:hover .dropdown-content {
   display: block;
 }
+.video{
+  position: relative;
+  bottom: 120px;
+  left: 5%;
+  margin-bottom: 4%;
+}
+.skillname{
+  position: relative;
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+  left: 10%;
+  top: 23px;
+}
 span {
   padding-top: 7px;
   padding-bottom: 7px;

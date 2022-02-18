@@ -1,10 +1,11 @@
 const urlSearchParams = new URLSearchParams(window.location.search)
 const params = Object.fromEntries(urlSearchParams.entries())
-const usersElement = document.querySelector('.champions')
-usersElement.innerHTML = "";
-let htmlData = "";
+const userElements = document.querySelector(".champions")
+userElements.innerHTML = ""
+let htmlData = ""
+console.log(Object.fromEntries)
 if(params.lane){
-    for(item of champions){
+    for(const item of champions){
         if(item.lane.includes(params.lane)){
             let html = `
             <li >
@@ -16,16 +17,16 @@ if(params.lane){
     }
 }
 else{
-    for(item of champions){
+    for(const item of champions){
             let html = `
             <li >
             <img class="image" src="${item.image}" height="120" alt="">
             <a class="click" href="${item.link}"><div class="name">${item.name}</div></a>
             </li>`
-            htmlData += html
+        htmlData += html
     }
 }
-usersElement.innerHTML = htmlData;
+userElements.innerHTML = htmlData
 
 
 
