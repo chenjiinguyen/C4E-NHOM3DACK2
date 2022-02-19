@@ -1,0 +1,40 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-bottom: 6%;
+  position: relative;
+  bottom: 95px;
+  left: 5%;
+  background-color: rgb(16, 235, 235);
+}
+
+td {
+  color: white;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  width: 5%;
+  text-align: center;
+  font-size: 20px;
+}
+th {
+  color: rgb(82, 75, 75);
+  font-size: 19px;
+  text-align: center;
+  border-top: 3px solid #dddddd;
+  border-bottom: 3px solid #dddddd;
+}
+.lasttable {
+  border-bottom: 2.5px solid #dddddd;
+}
+.skillActive{
+    background: dodgerblue;
+  }
+.skill{
+    text-indent: -9999px; 
+  }
+.skillimg {
+  height: 45px;
+  margin-top: 7%;
+  padding-right: 10%;
+}

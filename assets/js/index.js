@@ -1,9 +1,8 @@
 const urlSearchParams = new URLSearchParams(window.location.search)
-const params = Object.fromEntries(urlSearchParams.entries())
+const params = Object.fromEntries(urlSearchParams)
 const userElements = document.querySelector(".champions")
 userElements.innerHTML = ""
 let htmlData = ""
-console.log(Object.fromEntries)
 if(params.lane){
     for(const item of champions){
         if(item.lane.includes(params.lane)){
