@@ -24,6 +24,9 @@ th {
   border-top: 3px solid #dddddd;
   border-bottom: 3px solid #dddddd;
 }
+.TableNumber{
+    height: 40px;
+}
 .lasttable {
   border-bottom: 2.5px solid #dddddd;
 }
