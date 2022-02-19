@@ -27,7 +27,9 @@
   position: relative;
   top: 10px;
 }
-
+.Tablenumber{
+  height: 40px;
+}
 .dropdown {
   position: relative;
   display: inline-block;
