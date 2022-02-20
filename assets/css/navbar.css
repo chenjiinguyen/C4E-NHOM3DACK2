@@ -1,0 +1,144 @@
+.nav{
+    margin: 0px; 
+    padding: 0px;
+    background: rgb(218, 159, 50);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    height: 82px;
+  
+  }
+  .logo{
+    display: inline-block;
+   position: relative;
+    left: 10px;
+    padding: 10px;
+    font-size: 22px; 
+    color: white;
+  }
+  .lollogo{
+  height: 60px;
+  padding-left: 2.5%;
+  position: relative;
+  padding-right: 1%;
+  top: 10px;
+  }
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(218, 159, 50);;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 18px;
+  padding: 15px;
+  width: 125%;
+  font-weight: bold;
+  }
+  
+  .dropdown-content a {
+  color: white;
+  padding-bottom: 17px;
+  padding-left: 12px;
+  padding-top: 6px;
+  text-decoration: none;
+  display: block;
+  }
+  a > img {
+  position: relative;
+  height: 30px;
+  top: 7px;
+  right: 4px;
+  }
+  
+  .dropdown-content a:hover {
+    color: Indigo;
+    background-color: rgb(180, 196, 189);
+    border-radius: 8px;
+    opacity: .9;
+  }
+  
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+  
+  .dropbtn2 {
+  background-color: rgb(218, 159, 50);
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  .dropdown:hover .dropbtn2 {
+  color: rgb(80, 86, 180);
+  background-color: rgb(180, 196, 189);
+  border-radius: 6px;
+  }
+  
+  .dropbtn3 {
+  background-color: rgb(218, 159, 50);
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  
+  .dropbtn4 {
+  background-color: rgb(218, 159, 50);
+  color: white;
+  padding: 16px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  bottom: 10px;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  .dropdown:hover .dropbtn3 {
+  color: rgb(80, 86, 180);
+  background-color: rgb(180, 196, 189);
+  border-radius: 6px;
+  }
+  
+  .dropdown:hover .dropbtn4 {
+  color: rgb(80, 86, 180);
+  background-color: rgb(180, 196, 189);
+  border-radius: 6px;
+  }
+.SignIn{
+    width: 10%;
+    height: 50%;
+    background-color: rgb(156, 135, 177);
+    border-radius: 6px;
+    border: none;
+    font-size: 21px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 79%;
+    bottom: 23.5%;
+}
+.buttoncolor{
+    color: white;
+}
+
+

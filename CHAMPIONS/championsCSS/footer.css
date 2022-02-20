@@ -1,0 +1,22 @@
+footer{
+    height: 70px;
+    width: 135.8%;
+    position: relative;
+    right: 20%;
+  }
+  .grid{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    margin-left: 24%;
+    top: 35%;
+  }
+  .footerLOGO{
+    position: relative;
+    padding-top: 9%;
+    padding-bottom: 6%;
+    margin-left: 33%;
+  }
+  .FB{
+    height: 50px;
+  }
