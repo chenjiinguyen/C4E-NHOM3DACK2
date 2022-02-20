@@ -8,7 +8,8 @@
   <body>
     <form onsubmit ="return verify()" > 
       <div class="DangNhap">Đăng Nhập</div>
-    <div class ="loi" id="error"></div>
+    <div class ="error" id="error"></div>
+    <div class ="true" id="true"><a href="/index.html">Hello</a></div>
     <input class="input" id="username" type="text" value = "" placeholder="Email"/>
       <div>
       </div>
@@ -26,8 +27,9 @@
     <input class="checkbox" type="checkbox" checked="checked">
     <span class="checkmark"></span>
     </label>
-    <button class="nut1" type="submit" value = "Submit" ><i style="color:rgb(192, 181, 181);font-size: 25px" class="fa fa-arrow-right"></i></button>   
-    
+    <button onclick="myFunction()" id="button" onclick="myFunction()" class="nut1" type="submit" value = "Submit" ><div class="buttonBackGround"><i style="color:rgb(192, 181, 181);font-size: 25px" class="fa fa-arrow-right"></i>
+    </div></button>   
+
     </form>
     <script src="assets/js/login.js"></script>
   </body>
