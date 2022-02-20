@@ -4,178 +4,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.nav {
-  margin: 0px;
-  padding: 0px;
-  background: #ea1e63;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  height: 82px;
-}
-.logo {
-  display: inline-block;
-  position: relative;
-  left: 10px;
-  padding: 10px;
-  font-size: 22px;
-  color: white;
-}
-.lollogo {
-  height: 60px;
-  padding-left: 20px;
-  position: relative;
-  top: 10px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ea1e63;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  font-size: 18px;
-  padding: 15px;
-  width: 125%;
-  font-weight: bold;
-}
-
-.dropdown-content a {
-  color: white;
-  padding-bottom: 17px;
-  padding-left: 12px;
-  padding-top: 6px;
-  text-decoration: none;
-  display: block;
-}
-a > img {
-  position: relative;
-  height: 30px;
-  top: 7px;
-  right: 4px;
-}
-
-.dropdown-content a:hover {
-  color: Indigo;
-  background-color: aquamarine;
-  border-radius: 8px;
-  opacity: 0.9;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropbtn2 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropdown:hover .dropbtn2 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropbtn3 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropbtn4 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropdown:hover .dropbtn3 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropdown:hover .dropbtn4 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-#champions {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-}
-#champions li a {
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  position: relative;
-  bottom: 15px;
-}
-.champions {
-  display: block;
-  align-content: space-between;
-  flex-wrap: wrap;
-  position: relative;
-  justify-content: left;
-  bottom: 60px;
-  left: 1200px;
-}
-.champions > li {
-  border: 2px solid khaki;
-  border-radius: 6px;
-  padding: 10px;
-  color: white;
-  background-color: #ea1e63;
-  height: 60px;
-  width: 275px;
-}
-.champions > li:hover {
-  color: rgb(138, 72, 185);
-  background-color: rgb(87, 184, 119);
-}
-li > img {
-  height: 40px;
-  border-radius: 100%;
-  border: 4px solid chocolate;
-  position: relative;
-}
-
 .background {
-  background: rgb(0, 255, 255);
+  background: rgb(223, 219, 219);
   padding-top: 7%;
   height: 100%;
 }
@@ -243,24 +73,14 @@ h1 {
   color: Orange;
   top: 150px;
   border-style: solid;
-  border-top: rgb(0, 255, 255);
-  border-left: rgb(0, 255, 255);
-  border-right: rgb(0, 255, 255);
+  border-top: rgb(223, 219, 219);
+  border-left: rgb(223, 219, 219);
+  border-right: rgb(223, 219, 219);
   text-align: center;
   padding-bottom: 10px;
   border-width: 2px;
   width: 60%;
   margin-left: 18.5%;
-}
-.footer {
-  position: relative;
-  padding-top: 14%;
-  padding-bottom: 6%;
-  margin-left: 39%;
-}
-.FB {
-  height: 50px;
-  margin-right: 15px;
 }
 .mystyle {
   width: 100%;
@@ -270,3 +90,13 @@ h1 {
   font-size: 25px;
   box-sizing: border-box;
 }
+.footerLOGORUNES{
+  position: relative;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  margin-left: 38.5%;
+}
+a{
+  text-decoration: none;
+}
+

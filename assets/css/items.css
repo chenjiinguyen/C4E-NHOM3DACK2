@@ -4,136 +4,11 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.nav {
-  margin: 0px;
-  padding: 0px;
-  background: #ea1e63;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  height: 82px;
-}
-.logo {
-  display: inline-block;
-  position: relative;
-  left: 10px;
-  padding: 10px;
-  font-size: 22px;
-  color: white;
-}
-.lollogo {
-  height: 60px;
-  padding-left: 20px;
-  position: relative;
-  top: 10px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ea1e63;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  font-size: 18px;
-  padding: 15px;
-  width: 125%;
-  font-weight: bold;
-}
-
-.dropdown-content a {
-  color: white;
-  padding-bottom: 17px;
-  padding-left: 12px;
-  padding-top: 6px;
-  text-decoration: none;
-  display: block;
-}
-a > img {
-  position: relative;
-  height: 30px;
-  top: 7px;
-  right: 4px;
-}
-
-.dropdown-content a:hover {
-  color: Indigo;
-  background-color: aquamarine;
-  border-radius: 8px;
-  opacity: 0.9;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropbtn2 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.dropdown:hover .dropbtn2 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropbtn3 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropbtn4 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.dropdown:hover .dropbtn3 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropdown:hover .dropbtn4 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
 
 .background {
   padding-left: 14%;
   padding-right: 14%;
-  background: rgb(0, 255, 255);
+  background: rgb(223, 219, 219);
   padding-top: 30%;
   height: 100%;
 }
@@ -220,25 +95,14 @@ h1 {
   color: Orange;
   bottom: 200px;
   border-style: solid;
-  border-top: rgb(0, 255, 255);
-  border-left: rgb(0, 255, 255);
-  border-right: rgb(0, 255, 255);
+  border-top: rgb(223, 219, 219);
+  border-left: rgb(223, 219, 219);
+  border-right: rgb(223, 219, 219);
   text-align: center;
   padding-bottom: 10px;
   border-width: 2px;
   margin-left: 7%;
   width: 85%;
-}
-.footer {
-  position: relative;
-  padding-top: 13%;
-  padding-bottom: 6%;
-  margin-left: 33%;
-  margin-right: 33%;
-}
-.FB {
-  height: 50px;
-  margin-right: 15px;
 }
 .items > li p {
   display: none;

@@ -4,155 +4,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.nav {
-  margin: 0px;
-  padding: 0px;
-  background: #ea1e63;
-  position: fixed;
-  width: 100%;
-  z-index: 2;
-  height: 82px;
-}
-.logo {
-  display: inline-block;
-  position: relative;
-  left: 10px;
-  padding: 10px;
-  font-size: 22px;
-  color: white;
-}
-.lollogo {
-  height: 60px;
-  padding-left: 20px;
-  position: relative;
-  top: 10px;
-}
-.Tablenumber{
-  height: 40px;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ea1e63;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  font-size: 18px;
-  padding: 15px;
-  width: 125%;
-  font-weight: bold;
-}
-
-.dropdown-content a {
-  color: white;
-  padding-bottom: 17px;
-  padding-left: 12px;
-  padding-top: 6px;
-  text-decoration: none;
-  display: block;
-}
-a > img {
-  position: relative;
-  height: 30px;
-  top: 7px;
-  right: 4px;
-}
-.dropdown-content a:hover {
-  color: Indigo;
-  background-color: aquamarine;
-  border-radius: 8px;
-  opacity: 0.9;
-}
-.dropdown-content > .description {
-  pointer-events: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropbtn2 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropdown:hover .dropbtn2 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropbtn3 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropdown:hover .dropbtn3 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-.dropbtn4 {
-  background-color: #ea1e63;
-  color: white;
-  padding: 16px;
-  font-size: 21px;
-  border: none;
-  cursor: pointer;
-  position: relative;
-  bottom: 10px;
-  font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.dropdown:hover .dropbtn4 {
-  color: khaki;
-  background-color: rgba(177, 33, 134, 0.5);
-  border-radius: 6px;
-}
-
-#myInput {
-  display: inline-block;
-  position: relative;
-  font-size: 22px;
-  color: black;
-  bottom: 60px;
-  height: 40px;
-  padding: 10px;
-  width: 18%;
-  border: none;
-  border-radius: 4px;
-  margin-left: 1200px;
-}
 .background {
   padding-left: 200px;
   padding-right: 180px;
-  background: rgb(0, 255, 255);
+  background: rgb(223, 219, 219);
   padding-top: 450px;
   height: 100%;
 }
@@ -170,62 +25,11 @@ a {
   bottom: 300px;
   left: 200px;
 }
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-}
-
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px;
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block;
-}
 #champions {
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: none;
-}
-#champions li a {
-  text-decoration: none;
-  font-size: 17px;
-  color: white;
-  position: relative;
-  bottom: 15px;
-}
-.champions {
-  display: block;
-  align-content: space-between;
-  flex-wrap: wrap;
-  position: relative;
-  justify-content: left;
-  bottom: 60px;
-  left: 1200px;
-}
-.champions > li {
-  border: 2px solid khaki;
-  border-radius: 6px;
-  padding: 10px;
-  color: white;
-  background-color: #ea1e63;
-  height: 60px;
-  width: 275px;
-}
-.champions > li:hover {
-  background-color: rgb(87, 184, 119);
-}
-li > img {
-  height: 40px;
-  border-radius: 100%;
-  border: 4px solid chocolate;
-  position: relative;
 }
 h1 {
   position: relative;
@@ -292,7 +96,7 @@ h1 {
   position: relative;
   display: inline-block;
   height: 0px;
-  margin-bottom: 160px;
+  margin-bottom: 125px;
   bottom: 50px;
   left: 20px;
   margin-left: 40px;
@@ -318,20 +122,6 @@ h1 {
 }
 .dropdownA:hover .dropdown-content {
   display: block;
-}
-.video{
-  position: relative;
-  bottom: 120px;
-  left: 5%;
-  margin-bottom: 4%;
-}
-.skillname{
-  position: relative;
-  font-size: 22px;
-  color: white;
-  font-weight: bold;
-  left: 10%;
-  top: 23px;
 }
 span {
   padding-top: 7px;
@@ -365,38 +155,12 @@ span {
 .dropdown1:hover .dropdown-contentB {
   display: block;
 }
-.smallimg {
-  position: relative;
-  top: 4px;
-  height: 94px;
-  width: 120px;
-  opacity: 0.7;
-  padding: 4px;
-}
-.smallimg:hover {
-  opacity: 1;
-  transition-duration: 0.5s;
-  background-color: royalblue;
-}
-.largeimg {
-  height: 470px;
-  padding-left: 4px;
-}
-.example {
-  height: 470px;
-  position: relative;
-  left: 54px;
-  bottom: 46px;
-}
-.exampleimg {
-  height: 470px;
-  opacity: 0.5;
-}
 h4 {
   color: white;
   position: relative;
   bottom: 70px;
-  background-color: blueviolet;
+  border: 1px solid yellow;
+  background-color: rgb(202, 202, 89);
   margin-right: 500px;
   margin-left: 40px;
   padding-left: 45px;
@@ -430,14 +194,4 @@ h6 {
 }
 .combo1 {
   margin-top: 40px;
-}
-.footer{
-  position: relative;
-  padding-top: 18%;
-  padding-bottom: 6%;
-  padding-left: 33%;
-}
-.FB{
-  height: 50px;
-  margin-right: 15px;
 }
