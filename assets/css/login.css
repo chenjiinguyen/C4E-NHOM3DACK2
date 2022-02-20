@@ -164,23 +164,6 @@ button{
     margin-top: 4%;
     padding-left: 32%;
 }
-.Right{
-    color: rgb(41, 148, 151);
-    font-size: 22px;
-    text-align: center;
-    margin-bottom: 3%;
-}
-.Rightbutton{
-    background-color: #f7990c;
-    color: white;
-    font-size: 23px;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-radius: 5px;
-    width: 60%;
-    margin-left: 20%;
-}
 .true{
     z-index: 1;
     margin-bottom: 5%;
