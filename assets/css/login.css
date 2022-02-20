@@ -43,14 +43,24 @@
     padding-bottom: 4%;
 }
 button{
-    padding: 6%;
-    border-radius: 20%;
-    width: 20%;
+    border-radius: 22px;
     margin-top: 10%;
-    border: rgb(192, 181, 181);
+    border: none;
+    background-color: white;
     position: relative;
     left: 40%;
     margin-bottom: 10%;
+}
+.buttonBackGround{
+    background-color: rgb(240, 232, 232);
+    border-radius: 20px;
+    width: 300%;
+    height: 300%;
+    padding-top: 100%;
+    padding-bottom: 100%;
+}
+.buttonBackGround:hover{
+    background-color:#2196F3;
 }
 #error{
     font-weight: bold;
@@ -154,4 +164,12 @@ button{
     margin-top: 4%;
     padding-left: 32%;
 }
+.true{
+    z-index: 1;
+    margin-bottom: 5%;
+}
+a{
+    text-decoration: none;
+}
+
   
